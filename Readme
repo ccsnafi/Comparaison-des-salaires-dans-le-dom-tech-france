@@ -1,0 +1,50 @@
+# 🇫🇷 Analyse des Salaires Data/Tech en France (vs USA)
+
+Projet Data Analyst — France, comparaison avec le marché américain
+Nom:Afi Tenuda-eklou
+Linkden: https://www.linkedin.com/in/afi-tenuda-eklou-832101219/
+---
+
+## 🎯 Objectif
+
+- Analyser les tendances et disparités de salaires dans les métiers de la Data en France
+- Comparer avec les États-Unis pour identifier les écarts, les opportunités et les spécificités du marché français
+
+---
+
+## 📂 Dataset
+
+- **Fichier utilisé** : `salaries.csv` (≈ 141 566 lignes)
+- **Variables principales** :  
+  - `work_year` : Année d’observation  
+  - `experience_level` : Niveau d’expérience (EN = Junior, MI = Intermédiaire, SE = Senior, EX = Expert)  
+  - `employment_type` : Type de contrat  
+  - `job_title` : Intitulé du poste (Data Scientist, Data Analyst, Data Engineer…)  
+  - `salary`, `salary_currency`, `salary_in_usd` : Salaire dans la monnaie d’origine et converti en USD  
+  - `employee_residence` : Pays de résidence de l’employé (FR = France, US = USA)  
+  - `remote_ratio` : Part de télétravail (0, 50, 100 %)  
+  - `company_location` : Pays de l’entreprise  
+  - `company_size` : Taille de l’entreprise (S, M, L)  
+
+---
+
+
+## 🚀 Utilisation
+
+
+
+
+## 📚 Sources & Références
+
+- Dataset : [Kaggle – Data Science, AI & ML Job Salaries in 2025](https://www.kaggle.com/datasets/adilshamim8/salaries-for-data-science-jobs?resource=download)
+- Outils : Python, pandas, seaborn, matplotlib, scikit-learn, Streamlit
+### Pour executer le dashboard 
+python -m streamlit run dashboard.py
+
+
+### 1. Installer les dépendances
+
+```bash
+pip install -r requirements.txt
+
+
